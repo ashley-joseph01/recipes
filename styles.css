@@ -15,12 +15,19 @@ h2 {
 
 }
 
+li {
+    padding: 2px;
+    margin: 2px;
+}
+
 #home {
+    display: block;
     color: blueviolet;
+    background-color: #d8b1fc;
     font-family: 'Courier New', 'Times New Roman';
+    text-align: center;
     padding: 5px;
-    border: 2px solid blueviolet;
-    margin-left: 225px;
+    border: 2px solid #8a2be2;
 }
 
 .list {
@@ -28,7 +35,17 @@ h2 {
     margin: 5 px;
 }
 
-#item {
-    padding: 2px;
+#recipes {
+    display: block;
+    color: blueviolet;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
 
+#img {
+    display: block;
+    text-align: center;
 }
